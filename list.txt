@@ -1,9 +1,1 @@
-/var
-/sys
-/usr
-/tmp
-/home
-/root
-/etc
-/bin
-/sbin
+/home/bmk/Py/test

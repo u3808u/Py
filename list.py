@@ -5,11 +5,9 @@ import sys
 
 f = open("./list.txt", 'r')
 s = f.readline()
-print("under " + s + "--------------------\n", end='')
-for s in f:
-    print("=================================================================")
-    print("under " + s + "--------------------\n", end='')
-    com = s
-    s = "ls " + com
-    os.system(s)
+p = "cp -f "
+v = "test/*txt"
+t = " /home/bmk/Py/test1"
+print(p + v + t)
+os.system(p + v + t)
 f.close()
